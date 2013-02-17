@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Yusra Ahmed -->
+<!-- Visual Frameworks -->
+<!-- Term 1211 -->
+<!-- Project: Web App Part 1-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="My first HTML document" />
+        <meta name="keywords" content="holiday, decorating" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <title>Holiday Spirit</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/jquery.mobile-1.2.0.css" rel="stylesheet"/>
+        <script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+        <script src="js/jquery-migrate-1.1.0.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.2.0.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <section id="homePage" data-role="page" data-id="Navibar">
+            <div data-role="header" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#homePage" data-icon="home" data-iconpos="top" class="ui-btn-active">Home</a></li>
+                        <li><a href="additem.html#'info'" data-icon="info" data-iconpos="top">About</a></li>
+                        <li><a href="additem.html#'new'" data-icon="star" data-iconpos="top">New!</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+                <div data-role="navbar" data-id="top navigation">
+                    <a href="#" id="clearstoreddata">Clear Cart</a>
+                    <a href="#" id="displaydata" >My Cart</a>
+                    <a href="additem.html" id="addItem">Add Decor</a>
+                </div>
+                <caption for="featured"></caption>
+                <div id="featured">
+                    <a href="additem.html#displayPage"><img src="Img/Feature.jpeg" alt="Feature" height="50" width="300" class="gallery" /></a>
+                </div>
+                <form action="" method="post" data-id="pages">
+                <h1>Browse by...</h1>
+                    <a data-role="button" href="additem.html#'page2'" data-transition="slide" style="diaplsy:block">Category</a>
+                    <a data-role="button" href="additem.html#'page3'" id="colorStyleButton" data-transition="slide" style="display:block">Color Style</a>
+                    <a data-role="button" href="additem.html#'page4'" data-transition="slide" style="display:block">Multiple/Separate Colors</a>
+                    <a data-role="button" href="additem.html#'page5'" data-transition="slide" style="display:block">Colors</a>
+                    <a data-role="button" href="additem.html#'page6'" data-transition="slide" style="display:block">Order Type</a>
+                    <a data-role="button" href="additem.html#'page7'" data-transition="slide" style="display:block">Complete Order</a>
+                </form>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>The Holiday Spirit</h1>
+                <h6>Decorate for the holidays!</h6>
+            </div>
+        </section>
+        <script src="js/JSON.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>
